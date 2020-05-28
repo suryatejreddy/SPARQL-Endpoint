@@ -1,0 +1,2842 @@
+@prefix :      <http://iiitd.ac.in/sweb/2016102/schema#> .
+@prefix data:  <http://iiitd.ac.in/sweb/2016102/data#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix provODP: <http://www.semanticweb.org/hirtq/ontologies/2018/4/EntityWithProvenanceOntologyPattern#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+data:Simon_Pegg  a  :Actor .
+
+data:Sharrieff_Pugh  a  :Actor .
+
+data:Daniele_Thompson
+        a       :Director .
+
+data:David_Prowse  a  :Actor .
+
+data:Adam_Conover  a  :Actor .
+
+data:Paul_Hollywood  a  :Actor .
+
+data:Klara_Kristin  a  :Actor .
+
+data:Letitia_Wright  a  :Actor .
+
+data:Bruce_Dern  a  :Actor .
+
+data:Wendee_Lee  a  :Actor .
+
+data:Ben_Rosenfield  a  :Actor .
+
+data:Henry_LloydHughes
+        a       :Actor .
+
+data:Eric_Edelstein  a  :Actor .
+
+data:Tim_McInnerny  a  :Actor .
+
+data:Saurabh_Shukla  a  :Actor .
+
+data:Ross_R_Shuman  a  :Director .
+
+data:Suteerush_Channukool
+        a       :Actor .
+
+data:Rahim_Razali  a  :Actor .
+
+data:Florence_Kasumba
+        a       :Actor .
+
+data:Lee_Tockar  a  :Actor .
+
+data:Aamir_Khan  a  :Actor .
+
+data:John_Chapman  a  :Actor .
+
+data:Andy_Nyman  a  :Actor .
+
+data:Lisa_Durupt  a  :Actor .
+
+data:70062814  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Achita_Sikamana , data:Kachormsak_Naruepatr , data:Chachchaya_Chalemphol , data:Titikarn_Tongprasearth , data:Natthaweeranuch_Thongmee , data:Ananda_Everingham , data:Unnop_Chanpaibool , data:Sivagorn_Muttamara ;
+        :hasCategory         data:Horror_Movies , data:International_Movies ;
+        :hasDescription      "After killing a young girl in a hit-and-run accident, a couple is haunted by more than just the memory of their deadly choice." ;
+        :hasDirector         data:Parkpoom_Wongpoom , data:Banjong_Pisanthanakun ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Shutter" ;
+        :isOfDuration        "96 min" ;
+        :releasedInYear      2004 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Dylan_Howitt  a  :Director .
+
+data:Mohammed_Azaay  a  :Actor .
+
+data:Taksaorn_Paksukcharern
+        a       :Actor .
+
+data:Alexandra_Newick
+        a       :Actor .
+
+data:JeanMichel_Balthazar
+        a       :Actor .
+
+data:80060297  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Louis_Cancelmi , data:Gaby_Hoffmann , data:Tom_OBrien , data:Zach_Grenier , data:Caitlin_Fitzgerald , data:Katherine_Waterston ;
+        :hasCategory         data:Comedies , data:Romantic_Movies , data:Independent_Movies ;
+        :hasDescription      "A filmmaker working on a documentary about love in modern Manhattan becomes personally entangled in the romantic lives of his subjects." ;
+        :hasDirector         data:Tom_OBrien ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Manhattan Romance" ;
+        :isOfDuration        "98 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Waleed_Zuaiter  a  :Actor .
+
+data:Kachormsak_Naruepatr
+        a       :Actor .
+
+data:Madeleine_Gavin  a  :Director .
+
+data:80164077  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:Chile ;
+        :hasActor            data:Fabrizio_Copano ;
+        :hasCategory         data:StandUp_Comedy ;
+        :hasDescription      "Fabrizio Copano takes audience participation to the next level in this stand-up set while reflecting on sperm banks, family WhatsApp groups and more." ;
+        :hasDirector         data:Francisco_Schultz , data:Rodrigo_Toro ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Fabrizio Copano: Solo pienso en mi" ;
+        :isOfDuration        "60 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Sophie_Kennedy_Clark
+        a       :Actor .
+
+data:Luangsodsai_Anupart
+        a       :Actor .
+
+data:Ali_Hafiz  a  :Actor .
+
+data:Kristen_Bell  a  :Actor .
+
+data:Jessica_Mila  a  :Actor .
+
+data:Kazuki_Yano  a  :Actor .
+
+data:Brian_Baugh  a  :Director .
+
+data:80996949  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Adam_Conover , data:Adam_Lustick , data:Emily_Axford ;
+        :hasCategory         data:TV_Comedies ;
+        :hasDescription      "Education can be fun – and funny. Comedian Adam Conover bursts misconceptions, deconstructs topics and leaves with positive takeaways." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Adam Ruins Everything" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Chile  a   :Country .
+
+data:Vanessa_Bayer  a  :Actor .
+
+data:Patrick_Davis  a  :Actor .
+
+data:80159880  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Canada , data:United_States ;
+        :hasActor            data:Pongkool_Suebsung , data:Yanee_Tramoth , data:Preechaya_Pongthananikorn , data:Puttachat_Pongsuchat , data:Thawat_Pornrattanaprasert , data:Chantavit_Dhanasevi , data:Chaleumpol_Tikumpornteerawong , data:Sananthachat_Thanapatpisal , data:Pongsatorn_Jongwilak , data:Gornpop_Janjaroen ;
+        :hasCategory         data:Romantic_Movies , data:International_Movies , data:Comedies ;
+        :hasDescription      "When a broken ATM dishes out a fortune, a couple who works at the bank vies to see who can recover the most cash – and the loser must find a new job." ;
+        :hasDirector         data:Mez_Tharatorn ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "ATM" ;
+        :isOfDuration        "122 min" ;
+        :releasedInYear      2012 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:TV_Comedies  a  :Category .
+
+data:Derry_Drajat  a  :Actor .
+
+data:Humberto_Carro  a  :Actor .
+
+data:Laura_Bailey  a  :Actor .
+
+data:Peter_Gilroy  a  :Actor .
+
+data:Brendan_Gleeson  a  :Actor .
+
+data:70304988  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Kate_Beckinsale , data:David_Thewlis , data:Michael_Caine , data:Jim_Sturgess , data:Brendan_Gleeson , data:Ben_Kingsley , data:Edmund_Kingsley , data:Sophie_Kennedy_Clark , data:Jason_Flemyng , data:Sinad_Cusack ;
+        :hasCategory         data:Thrillers , data:Horror_Movies ;
+        :hasDescription      "In 1899, a young doctor arrives at an asylum for an apprenticeship and becomes suspicious of his mentor's methods while falling for a female patient." ;
+        :hasDirector         data:Brad_Anderson ;
+        :hasRating           :PG-13 ;
+        :hasTitle            "Stonehearst Asylum" ;
+        :isOfDuration        "113 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80117902  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Docuseries , data:Science__Nature_TV ;
+        :hasDescription      "As California's 2016 fire season rages, brave backcountry firefighters race to put out the flames, protect homes and save lives in this docuseries." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Fire Chasers" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Andy_Pessoa  a  :Actor .
+
+data:Caitlin_Fitzgerald
+        a       :Actor .
+
+data:Nicolas_Cage  a  :Actor .
+
+data:70303496  a             :Movie ;
+        :addedOnDate         "Thu Sep 06 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:India ;
+        :hasActor            data:Anuskha_Sharma , data:Boman_Irani , data:Rukhsar , data:Parikshat_Sahni , data:Sanjay_Dutt , data:Sushant_Singh_Rajput , data:Saurabh_Shukla , data:Aamir_Khan ;
+        :hasCategory         data:Comedies , data:Dramas , data:International_Movies ;
+        :hasDescription      "Aamir Khan teams with director Rajkumar Hirani to play a social crusader in a political satire on the state of corruption in India." ;
+        :hasDirector         data:Rajkumar_Hirani ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "PK" ;
+        :isOfDuration        "146 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:International_TV_Shows
+        a       :Category .
+
+data:Songyos_Sugmakanan
+        a       :Director .
+
+data:Nittha_Jirayungyurn
+        a       :Actor .
+
+data:Jane_Fonda  a  :Actor .
+
+data:80198585  a             :Movie ;
+        :addedOnDate         "Mon Sep 03 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States , data:United_Kingdom ;
+        :hasActor            data:Tony_Todd , data:Vladimir_Kulich , data:Selina_Lo , data:Rachel_Brann , data:Scott_Adkins , data:Michael_Par , data:Louis_Mandylor ;
+        :hasCategory         data:Action__Adventure ;
+        :hasDescription      "A broke martial arts instructor takes a side gig with a mobster, who pairs him with a veteran thug for a weekend of fisticuffs-fueled debt collection." ;
+        :hasDirector         data:Jesse_V_Johnson ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The Debt Collector" ;
+        :isOfDuration        "96 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Visute_Poolvoralaks
+        a       :Director .
+
+data:Jeffrey_Wright  a  :Actor .
+
+data:Vernica_Echegui  a  :Actor .
+
+data:Sunil_Soraya  a  :Director .
+
+data:Jirayu_Laongmanee
+        a       :Actor .
+
+data:Netherlands  a  :Country .
+
+data:Phoebe_WallerBridge
+        a       :Actor .
+
+data:Mahsun_Krmzgl  a  :Actor , :Director .
+
+data:Jeremy_Bulloch  a  :Actor .
+
+data:Epy_Kusnandar  a  :Actor .
+
+data:Lake_Bell  a  :Actor .
+
+data:Daniel_Alfredson
+        a       :Director .
+
+data:Peeratchai_Roompol
+        a       :Actor .
+
+data:Darren_Criss  a  :Actor .
+
+data:Nina_Richmond  a  :Actor .
+
+data:Isha_Talwar  a  :Actor .
+
+data:United_Kingdom  a  :Country .
+
+data:Pandji_Pragiwaksono
+        a       :Actor .
+
+data:Children__Family_Movies
+        a       :Category .
+
+data:Michael_Par  a  :Actor .
+
+data:Chaleumpol_Tikumpornteerawong
+        a       :Actor .
+
+data:British_TV_Shows
+        a       :Category .
+
+data:Michael_Caine  a  :Actor .
+
+data:Chachchaya_Chalemphol
+        a       :Actor .
+
+data:Science__Nature_TV
+        a       :Category .
+
+data:Frank_Welker  a  :Actor .
+
+data:Mike_Flanagan  a  :Director .
+
+data:80116921  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Eric_Edelstein , data:Bobby_Moynihan , data:Demetri_Martin ;
+        :hasCategory         data:Kids_TV , data:TV_Comedies ;
+        :hasDescription      "Grizzly, Panda and Ice Bear are three adopted bear brothers struggling against their animal instincts to fit into the civilized, modern human world." ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "We Bare Bears" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Bel_Powley  a  :Actor .
+
+data:81113928  a             :Movie ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :hasActor            data:Praveena_Paruchuri , data:Nithyasri_Goru , data:Kesava_Karri , data:Mohan_Bhagath , data:Radha_Bessy , data:Praneetha_Patnaik , data:Karthik_Rathnam , data:Subba_Rao_Vepada ;
+        :hasCategory         data:Dramas , data:Independent_Movies , data:Comedies ;
+        :hasDescription      "From a schoolboy’s crush to a middle-aged bachelor’s office romance, four love stories spanning age, religion and status unfold in a small Indian town." ;
+        :hasDirector         data:Maha_Venkatesh ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Care of Kancharapalem" ;
+        :isOfDuration        "142 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Vladimir_Kulich  a  :Actor .
+
+data:Adam_Lustick  a  :Actor .
+
+data:Maria_Bamford  a  :Actor .
+
+data:Boman_Irani  a  :Actor .
+
+data:Michael_Dobson  a  :Actor .
+
+data:Julian_Black_Antelope
+        a       :Actor .
+
+data:Sanjay_Dutt  a  :Actor .
+
+data:Gregory_Alan_Williams
+        a       :Actor .
+
+data:80184358  a             :TV_Show ;
+        :addedOnDate         "Mon Sep 03 00:00:00 GST 2018"^^xsd:date ;
+        :hasActor            data:Nungira_Hanwutinanon , data:Nuchanart_Veerakaarn , data:Kongyingyong_Chonlathorn , data:Ausavaterakul_Ausavapat , data:Charnmanoon_Pannin , data:Sirikiet_Saejea , data:Phumphothingam_Nawat , data:Chindavanich_Primrose , data:Luangsodsai_Anupart , data:Nontapan_Chuenwarin ;
+        :hasCategory         data:TV_Dramas , data:International_TV_Shows , data:Romantic_TV_Shows ;
+        :hasDescription      "Love and academics get complicated at an all-male college that happens to be located next to an all-female high school." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Lovesick" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Pakistan  a  :Country .
+
+data:80046728  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:Belgium , data:France ;
+        :hasActor            data:Stephen_Campbell_Moore , data:Rupert_Grint , data:Erika_Sainte , data:Robert_Sheehan , data:Tom_Audenaert , data:Kevin_Bishop , data:Ron_Perlman , data:Eric_Lampaert ;
+        :hasCategory         data:Action__Adventure , data:International_Movies , data:Comedies ;
+        :hasDescription      "A brain-addled war vet, a failing band manager and a Stanley Kubrick impersonator help the CIA construct an epic scam by faking the 1969 moon landing." ;
+        :hasDirector         data:Antoine_BardouJacquet ;
+        :hasRating           :R ;
+        :hasTitle            "Moonwalkers" ;
+        :isOfDuration        "96 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Rosamund_Pike  a  :Actor .
+
+data:Music__Musicals  a  :Category .
+
+data:Hannah_Fidell  a  :Director .
+
+data:Sumalee_Montano  a  :Actor .
+
+data:Julia_Reichert  a  :Actor .
+
+data:Wendell_Pierce  a  :Actor .
+
+data:Panissara_Phimpru
+        a       :Actor .
+
+data:Will_Friedle  a  :Actor .
+
+data:80095641  a             :Movie ;
+        :addedOnDate         "Tue Sep 06 00:00:00 GST 2016"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasActor            data:Pam_Rose , data:Paul_Blake , data:Jeremy_Bulloch , data:John_Chapman , data:Derek_Lyons , data:Laurie_Goode , data:David_Prowse , data:Anthony_Forrest , data:Garrick_Hagon , data:Angus_MacInnes ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "Then and now footage of bit players who appeared in \"\"Star Wars\"\" tells the story of how the film and its legions of fans changed their lives forever." ;
+        :hasDirector         data:Jon_Spira ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Elstree 1976" ;
+        :isOfDuration        "102 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Action__Adventure
+        a       :Category .
+
+data:Eloy_Azorn  a  :Actor .
+
+data:81011955  a             :Movie ;
+        :addedOnDate         "Sat Sep 29 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Brazil ;
+        :hasActor            data:Lee_Taylor , data:Seu_Jorge , data:Erasmo_Carlos , data:Marjorie_Estiano , data:Hermila_Guedes , data:Humberto_Carro , data:Julia_Konrad , data:Malu_Galli , data:Felipe_Abib , data:Jlio_Andrade , data:Jaloo ;
+        :hasCategory         data:Dramas , data:Independent_Movies , data:International_Movies ;
+        :hasDescription      "A cop moonlights as the bodyguard for a young drag queen at a nightclub, and grows closer to the family of misfit singers that perform there." ;
+        :hasDirector         data:Monique_Gardenberg ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Paradise Lost" ;
+        :isOfDuration        "111 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Bruce_Greenwood  a  :Actor .
+
+data:Canada  a  :Country .
+
+data:France  a  :Country .
+
+data:80162141  a             :Movie ;
+        :addedOnDate         "Wed Sep 06 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasActor            data:Andy_Lucas , data:Oliver_Stark , data:Kat_Gellin , data:Ralph_Brown , data:Beverly_Hills , data:Nathanael_Wiseman , data:Alexandra_Newick , data:Mem_Ferda ;
+        :hasCategory         data:Dramas , data:Independent_Movies ;
+        :hasDescription      "A drug dealer who's been emulating his father's successful criminal career is forced to go on the run with a young girl in this fact-based thriller." ;
+        :hasDirector         data:Robert_Osman , data:Nathanael_Wiseman ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Hard Tide" ;
+        :isOfDuration        "79 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Giorgia_Whigham  a  :Actor .
+
+data:Colin_ODonoghue  a  :Actor .
+
+data:Kate_Hudson  a  :Actor .
+
+data:Henrik_Ruben_Genz
+        a       :Director .
+
+data:Ryosuke_Yusa  a  :Actor .
+
+data:Brazil  a  :Country .
+
+:PG-13  a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Dwight_Schultz  a  :Actor .
+
+data:Babe_Cabita  a  :Actor .
+
+data:Charnmanoon_Pannin
+        a       :Actor .
+
+data:Alice_Pol  a  :Actor .
+
+data:Omar_Sy  a  :Actor .
+
+data:Citra_Prima  a  :Actor .
+
+data:Uruguay  a  :Country .
+
+data:Deepak_Chachra  a  :Actor .
+
+data:Jason_Newman  a  :Actor .
+
+data:Winston_Duke  a  :Actor .
+
+data:Michael_Pea  a  :Actor .
+
+data:Birgitte_Hjort_Srensen
+        a       :Actor .
+
+data:Constance_Doll  a  :Actor .
+
+data:Alberto_Ammann  a  :Actor .
+
+data:Sushil_Pandey  a  :Actor .
+
+data:Tara_Strong  a  :Actor .
+
+data:Abhinav_Gomatam  a  :Actor .
+
+data:Ornjira_Lamwilai
+        a       :Actor .
+
+data:Afdhal_Yusman  a  :Actor .
+
+data:Tilak_Shetty  a  :Director .
+
+data:Michael_B_Jordan
+        a       :Actor .
+
+data:Lee_Taylor  a  :Actor .
+
+data:81002850  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Indonesia ;
+        :hasActor            data:Herjunot_Ali , data:Raline_Shah , data:Fedi_Nuril , data:Firrina_Sinatrya , data:Didi_Petet , data:Pevita_Pearce , data:Denny_Sumargo , data:Saykoji ;
+        :hasCategory         data:International_Movies , data:Dramas ;
+        :hasDescription      "Five friends embark on a mission to climb the highest peak in Java, overcoming obstacles on the way and discovering the true meaning of friendship." ;
+        :hasDirector         data:Rizal_Mantovani ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "5CM" ;
+        :isOfDuration        "126 min" ;
+        :releasedInYear      2012 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Kevin_Sizemore  a  :Actor .
+
+data:Erika_Sainte  a  :Actor .
+
+data:DeanCharles_Chapman
+        a       :Actor .
+
+:fromCountry  a             owl:ObjectProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          :Country ;
+        rdfs:subPropertyOf  <http://www.loa-cnr.it/ontologies/DUL.owl#isSettingFor> .
+
+data:Steven_Bognar  a  :Actor .
+
+data:80190843  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :hasCategory         data:Docuseries ;
+        :hasDescription      "Take an intimate look at the emotionally charged first and last days of new and soon-to-be released inmates at Georgia's Gwinnett County Jail." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "First and Last" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Luca_Jimnez  a  :Actor .
+
+data:Sissi_Duparc  a  :Actor .
+
+data:Simran_Choudhary
+        a       :Actor .
+
+data:Cole_Howard  a  :Actor .
+
+data:Sarayu_Blue  a  :Actor .
+
+data:Angela_Bassett  a  :Actor .
+
+data:William_Lau  a  :Director .
+
+data:Ge_Wang  a  :Actor .
+
+data:Najiba_Faiz  a  :Actor .
+
+data:Yong_Armchair  a  :Actor .
+
+:TV-Y   a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Nattapong_Chartpong
+        a       :Actor .
+
+data:Parikshat_Sahni  a  :Actor .
+
+data:Sarah_Paulson  a  :Actor .
+
+data:Anna_Friel  a  :Actor .
+
+data:Christa_Campbell
+        a       :Actor .
+
+data:TJ_Smith  a  :Actor .
+
+data:Dana_WheelerNicholson
+        a       :Actor .
+
+data:80058654  a             :TV_Show ;
+        :addedOnDate         "Sat Sep 08 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Ted_McGinley , data:Will_Friedle , data:Darren_Criss , data:Stuart_Allan , data:Peter_Cullen , data:Khary_Payton , data:Mitchell_Whitfield , data:Constance_Zimmer ;
+        :hasCategory         data:Kids_TV ;
+        :hasDescription      "When a prison ship crash unleashes hundreds of Decepticons on Earth, Bumblebee leads a new Autobot force to protect humankind." ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Transformers: Robots in Disguise" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Minsik_Choi  a  :Actor .
+
+data:Sushant_Singh_Rajput
+        a       :Actor .
+
+data:GV_Prakash_Kumar
+        a       :Actor .
+
+data:Brian_De_Palma  a  :Director .
+
+data:Brendan_Byrne  a  :Director .
+
+data:Chumphorn_Thepphithak
+        a       :Actor .
+
+data:Rishi_Gambhir  a  :Actor .
+
+data:TV_Dramas  a  :Category .
+
+data:Pongkool_Suebsung
+        a       :Actor .
+
+data:Yanee_Tramoth  a  :Actor .
+
+data:Samyuktha_Hegde  a  :Actor .
+
+data:Firrina_Sinatrya
+        a       :Actor .
+
+data:Keith_Powers  a  :Actor .
+
+data:Alexander_Skarsgrd
+        a       :Actor .
+
+data:Maya_Kay  a  :Actor .
+
+data:Sahajak_Boonthanakit
+        a       :Actor .
+
+data:Mohan_Bhagath  a  :Actor .
+
+data:Kate_Walsh  a  :Actor .
+
+:TV_Show  a              owl:Class ;
+        rdfs:subClassOf  :NetflixListing .
+
+data:80057969  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:France , data:Belgium ;
+        :hasActor            data:Isabelle_Nicou , data:Vincent_Maraval , data:Benot_Debie , data:Klara_Kristin , data:Karl_Glusman , data:Gaspar_No , data:Aomi_Muyock , data:Ugo_Fox , data:Juan_Saavedra , data:Dborah_Rvy ;
+        :hasCategory         data:Dramas , data:Independent_Movies , data:Cult_Movies ;
+        :hasDescription      "A man in an unsatisfying marriage recalls the details of an intense past relationship with an ex-girlfriend when he gets word that she may be missing." ;
+        :hasDirector         data:Gaspar_No ;
+        :hasRating           :NR ;
+        :hasTitle            "Love" ;
+        :isOfDuration        "135 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Kristine_Froseth
+        a       :Actor .
+
+data:Lenny_Jacobson  a  :Actor .
+
+data:80221550  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :hasActor            data:Rosamund_Pike , data:Jordan_Fisher , data:Chelsea_Kane , data:Kari_Wahlgren , data:Adam_Pally , data:Tony_Hale ;
+        :hasCategory         data:TV_Comedies , data:Kids_TV ;
+        :hasDescription      "Happy-go-lucky chicken Archibald may not remember to do his chores, but he never forgets to have fun. After all, life's an adventure!" ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Archibald's Next Big Thing" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:China  a   :Country .
+
+data:Achita_Sikamana  a  :Actor .
+
+data:Ted_McGinley  a  :Actor .
+
+data:Rinna_Hassim  a  :Actor .
+
+data:Iain_Armitage  a  :Actor .
+
+data:Antoine_BardouJacquet
+        a       :Director .
+
+data:Khary_Payton  a  :Actor .
+
+data:80177405  a             :Movie ;
+        :addedOnDate         "Tue Sep 05 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Marc_Maron ;
+        :hasCategory         data:StandUp_Comedy ;
+        :hasDescription      "Battle-scarred stand-up comedian Marc Maron unleashes a storm of ideas about meditation, mortality, documentary films and our weird modern world." ;
+        :hasDirector         data:Lynn_Shelton ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Marc Maron: Too Real" ;
+        :isOfDuration        "70 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Mila_Kunis  a  :Actor .
+
+:hasTitle  a                owl:DatatypeProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          xsd:string ;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+data:Franck_Ribire  a  :Director .
+
+data:Nathan_Lane  a  :Actor .
+
+:Actor  a                owl:Class ;
+        rdfs:subClassOf  :Person .
+
+data:Parkpoom_Wongpoom
+        a       :Director .
+
+data:Titikarn_Tongprasearth
+        a       :Actor .
+
+data:Rita_Rudaini  a  :Actor .
+
+data:Nathanael_Wiseman
+        a       :Actor , :Director .
+
+data:Isabelle_Nicou  a  :Actor .
+
+data:80199032  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasActor            data:Paul_Hollywood ;
+        :hasCategory         data:Docuseries , data:International_TV_Shows , data:British_TV_Shows ;
+        :hasDescription      "Gear up for a fast-paced journey as celebrity chef and avid auto enthusiast Paul Hollywood takes in the cars and culture of France, Italy and Germany." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Paul Hollywood's Big Continental Road Trip" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80182481  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Smita_Malhotra , data:Baba_Sehgal , data:Damandeep_Singh_Baggan ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "Animal minstrels narrate stories about a monkey's friendship with a crocodile, two monkeys' foolishness and a villager's encounter with a demon." ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy: Part II" ;
+        :isOfDuration        "58 min" ;
+        :releasedInYear      2010 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+:TV-MA  a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Adam_Pally  a  :Actor .
+
+data:Nungira_Hanwutinanon
+        a       :Actor .
+
+data:Shannon_Purser  a  :Actor .
+
+data:Dilad_imek  a  :Actor .
+
+data:81132437  a             :Movie ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :hasActor            data:Yosi_Mizrahi , data:Ali_Yourtuolu , data:Seda_Bakan , data:Dilad_imek , data:zgr_Emre_Yldrm , data:Aelya_Topalolu , data:Murat_Boz , data:Seda_Gven ;
+        :hasCategory         data:Romantic_Movies , data:International_Movies , data:Comedies ;
+        :hasDescription      "Bogged down with money problems, a couple grows cautious of each other but hit the lottery and decide to stay together – till death do they part." ;
+        :hasDirector         data:enol_Snmez ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Kill Me If You Dare" ;
+        :isOfDuration        "100 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Jeremy_Saulnier  a  :Director .
+
+data:Italy  a   :Country .
+
+data:Julie_Recoing  a  :Actor .
+
+data:Jeffrey_Combs  a  :Actor .
+
+data:Miller_Khan  a  :Actor .
+
+data:Freya_Mavor  a  :Actor .
+
+data:RJ_Cyler  a  :Actor .
+
+data:Chayanop_Boonprakob
+        a       :Director .
+
+data:Macon_Blair  a  :Actor .
+
+data:Kornpassorn_Duaysianklao
+        a       :Actor .
+
+data:Bryan_Batt  a  :Actor .
+
+data:Ritesh_Batra  a  :Director .
+
+data:Sam_Worthington  a  :Actor .
+
+data:Annisa_Rawles  a  :Actor .
+
+data:Rob_Riggle  a  :Actor .
+
+data:Tim_Blake_Nelson
+        a       :Actor .
+
+data:Herjunot_Ali  a  :Actor .
+
+data:Kaz_Sawamura  a  :Actor .
+
+data:80159586  a             :Movie ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States , data:United_Kingdom , data:Belgium ;
+        :hasActor            data:Anna_Mouglalis , data:JeanMichel_Balthazar , data:Maya_Coline , data:Sissi_Duparc , data:Michel_Fau , data:Andr_Wilms , data:Constance_Doll , data:Niels_Schneider , data:Julie_Recoing , data:Eric_Godon ;
+        :hasCategory         data:Thrillers , data:International_Movies , data:Dramas ;
+        :hasDescription      "In 1930s Paris, an actress famous for her gory death scenes at the Grand Guignol Theater contends with a mysterious stalker and ghosts from her past." ;
+        :hasDirector         data:Franck_Ribire ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The Most Assassinated Woman in the World" ;
+        :isOfDuration        "102 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Arzetti_Bilbina  a  :Actor .
+
+data:Mary_Pat_Gleason
+        a       :Actor .
+
+data:70299204  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States , data:Netherlands , data:Belgium , data:United_Kingdom ;
+        :hasActor            data:Jemima_West , data:Mark_van_Eeuwen , data:Thomas_Cocquerel , data:Ryan_Kwanten , data:David_Dencik , data:Anthony_Hopkins , data:Sam_Worthington , data:Jim_Sturgess ;
+        :hasCategory         data:Action__Adventure , data:International_Movies , data:Dramas ;
+        :hasDescription      "When beer magnate Alfred \"\"Freddy\"\" Heineken is kidnapped in 1983, his abductors make the largest ransom demand in history." ;
+        :hasDirector         data:Daniel_Alfredson ;
+        :hasRating           :R ;
+        :hasTitle            "Kidnapping Mr. Heineken" ;
+        :isOfDuration        "95 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Ayushmann_Khurrana
+        a       :Actor .
+
+data:Rachel_Staman  a  :Actor .
+
+data:Jaloo  a   :Actor .
+
+data:Kongyingyong_Chonlathorn
+        a       :Actor .
+
+data:Jon_Spira  a  :Director .
+
+data:America_Young  a  :Actor .
+
+data:Puttachat_Pongsuchat
+        a       :Actor .
+
+data:Lynn_Shelton  a  :Director .
+
+data:Anthony_Hopkins  a  :Actor .
+
+data:Nikolaj_CosterWaldau
+        a       :Actor .
+
+data:John_Farley  a  :Actor .
+
+data:Keanu_Chi  a  :Actor .
+
+<http://iiitd.ac.in/sweb/2016102/schema>
+        a            owl:Ontology ;
+        owl:imports  <http://www.semanticweb.org/hirtq/ontologies/2018/4/EntityWithProvenanceOntologyPattern> , <http://events.semantic-multimedia.org/ontology/2008/12/15/model.owl> .
+
+data:Ernie_Hudson  a  :Actor .
+
+:hasCategory  a             owl:ObjectProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          :Category ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+:Country  a              owl:Class ;
+        rdfs:subClassOf  <http://www.loa-cnr.it/ontologies/DUL.owl#SpaceRegion> .
+
+data:Eriq_Ebouaney  a  :Actor .
+
+data:Danny_Glover  a  :Actor .
+
+data:Jonathan_Langdon
+        a       :Actor .
+
+data:Louis_Mandylor  a  :Actor .
+
+data:Worrawech_Danuwong
+        a       :Actor .
+
+data:Daniel_Bonjour  a  :Actor .
+
+data:Peter_Fonda  a  :Actor .
+
+data:Jesse_Rath  a  :Actor .
+
+data:Nassim_Lyes  a  :Actor .
+
+data:Noah_Centineo  a  :Actor .
+
+data:Jos_Miguel_Contreras
+        a       :Director .
+
+:Movie  a                owl:Class ;
+        rdfs:subClassOf  :NetflixListing .
+
+data:Vincent_Maraval  a  :Actor .
+
+data:Sutatta_Udomsilp
+        a       :Actor .
+
+data:Yogi_Babu  a  :Actor .
+
+data:Reality_TV  a  :Category .
+
+data:James_Franco  a  :Actor .
+
+data:TV_Thrillers  a  :Category .
+
+data:Sirikiet_Saejea  a  :Actor .
+
+:hasRating  a               owl:ObjectProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          :Rating ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+data:Ian_Samuels  a  :Director .
+
+data:Mirza_Salihovic  a  :Actor .
+
+data:81154455  a             :Movie ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:India ;
+        :hasActor            data:Mohammed_Zeeshan_Ayyub , data:Kumud_Mishra , data:Nassar , data:Manoj_Pahwa , data:Ayushmann_Khurrana , data:Isha_Talwar , data:Sushil_Pandey , data:Subhrajyoti_Barat , data:Sayani_Gupta , data:Aakash_Dabhade ;
+        :hasCategory         data:Dramas , data:International_Movies , data:Thrillers ;
+        :hasDescription      "The grim realities of caste discrimination come to light as an entitled but upright city cop ventures into India’s heartland to investigate a murder." ;
+        :hasDirector         data:Anubhav_Sinha ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Article 15" ;
+        :isOfDuration        "125 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Gesya_Shandy  a  :Actor .
+
+data:Oliver_Stark  a  :Actor .
+
+data:StandUp_Comedy  a  :Category .
+
+data:Sohail_Malik  a  :Actor .
+
+data:Kid_Ink  a  :Actor .
+
+data:Malu_Galli  a  :Actor .
+
+data:Paul_Blake  a  :Actor .
+
+data:Judy_Greer  a  :Actor .
+
+data:Chal_Inoue  a  :Actor .
+
+data:Nicole_Theriault
+        a       :Actor .
+
+data:Nina_Kiri  a  :Actor .
+
+data:Ron_Perlman  a  :Actor .
+
+data:Guillaume_Canet  a  :Actor .
+
+data:David_Ryall  a  :Actor .
+
+data:Sori_Moon  a  :Actor .
+
+data:81155784  a             :Movie ;
+        :addedOnDate         "Wed Sep 04 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:India ;
+        :hasActor            data:Suman , data:GV_Prakash_Kumar , data:Raj_Arjun , data:Yogi_Babu , data:Munishkanth , data:Samyuktha_Hegde ;
+        :hasCategory         data:International_Movies , data:Comedies , data:Dramas ;
+        :hasDescription      "Rushing to pay off a loan shark, a young man breaks into a bungalow to steal the cash, unprepared for the dog standing guard – or the trouble inside." ;
+        :hasDirector         data:A_L_Vijay ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Watchman" ;
+        :isOfDuration        "93 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Pongsatorn_Jongwilak
+        a       :Actor .
+
+data:Jacob_LaMendola  a  :Director .
+
+data:Maha_Venkatesh  a  :Director .
+
+data:Keerati_Mahapreukpong
+        a       :Actor .
+
+data:Yousef_Erakat  a  :Actor .
+
+data:Hiroto_Kanai  a  :Actor .
+
+data:Yosi_Mizrahi  a  :Actor .
+
+data:Joe_Ksander  a  :Director .
+
+data:Drew_Barrymore  a  :Actor .
+
+data:Michel_Fau  a  :Actor .
+
+data:Charlyne_Yi  a  :Actor .
+
+data:Jonathan_Holmes  a  :Actor .
+
+data:Banjong_Pisanthanakun
+        a       :Director .
+
+data:Fabrizio_Copano  a  :Actor .
+
+data:Bob_Odenkirk  a  :Actor .
+
+data:Erasmo_Carlos  a  :Actor .
+
+data:Aomi_Muyock  a  :Actor .
+
+data:Michelle_Obama  a  :Actor .
+
+data:70233894  a             :Movie ;
+        :addedOnDate         "Sat Sep 29 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Turkey , data:United_States ;
+        :hasActor            data:Mahsun_Krmzgl , data:Scott_William_Winters , data:Gina_Gershon , data:Engin_Altan_Dzyatan , data:Robert_Patrick , data:Sharrieff_Pugh , data:Mustafa_Sandal , data:Haluk_Bilginer , data:Danny_Glover ;
+        :hasCategory         data:International_Movies , data:Action__Adventure ;
+        :hasDescription      "Two Turkish agents are sent to New York City on a mission to capture a notorious terrorist known only as \"\"Dejjal\"\" (Arabic for Antichrist)." ;
+        :hasDirector         data:Mahsun_Krmzgl ;
+        :hasRating           :NR ;
+        :hasTitle            "Act of Vengeance" ;
+        :isOfDuration        "112 min" ;
+        :releasedInYear      2010 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> ;
+        owl:sameAs           <http://dbpedia.org/resource/Act_of_Vengeance_(2010_film)> .
+
+data:81054495  a             :Movie ;
+        :addedOnDate         "Mon Sep 30 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasActor            data:Mo_Gilligan ;
+        :hasCategory         data:StandUp_Comedy ;
+        :hasDescription      "Comedian Mo Gilligan blends smooth moves and sharp humor as he riffs on humble beginnings, family dynamics and the complex art of dancing in the club." ;
+        :hasDirector         data:Chris_Howe ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Mo Gilligan: Momentum" ;
+        :isOfDuration        "64 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Claudia_Traisac  a  :Actor .
+
+data:Ausavaterakul_Ausavapat
+        a       :Actor .
+
+data:Jorja_Cadence  a  :Actor .
+
+data:William_Moseley  a  :Actor .
+
+data:Rod_Blackhurst  a  :Director .
+
+data:Denny_Sumargo  a  :Actor .
+
+data:81016045  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Nittha_Jirayungyurn , data:Theerapat_Sajakul , data:Somyos_Matures , data:Rermthon_Kemapech , data:Kaz_Sawamura , data:Kris_Srepoomseth , data:Chantavit_Dhanasevi , data:Prim_Bulakul , data:Sutthatip_Wutichaipradit ;
+        :hasCategory         data:International_Movies , data:Dramas , data:Romantic_Movies ;
+        :hasDescription      "When his colleague (and crush) temporarily loses her memory, an overlooked geek seizes the chance to make an impression before she remembers again." ;
+        :hasDirector         data:Banjong_Pisanthanakun ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "One Day" ;
+        :isOfDuration        "135 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Ben_Kingsley  a  :Actor .
+
+data:Helena_Kaittani  a  :Actor .
+
+data:80182115  a             :Movie ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "When Juan Catalan is arrested for a murder he didn't commit, he builds his case for innocence around raw footage from a popular TV show. A documentary." ;
+        :hasDirector         data:Jacob_LaMendola ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Long Shot" ;
+        :isOfDuration        "40 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Ireland  a  :Country .
+
+data:Somyos_Matures  a  :Actor .
+
+data:Connie_Nielsen  a  :Actor .
+
+data:zgr_Emre_Yldrm  a  :Actor .
+
+data:Eric_Godon  a  :Actor .
+
+data:Eunkyung_Shim  a  :Actor .
+
+data:Imran_Aslam  a  :Actor .
+
+data:Felipe_Abib  a  :Actor .
+
+data:Francisco_Schultz
+        a       :Director .
+
+:Director  a             owl:Class ;
+        rdfs:subClassOf  :Person .
+
+data:Tinna_Harahap  a  :Actor .
+
+data:70212504  a             :Movie ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States , data:United_Kingdom ;
+        :hasActor            data:Kristen_Bell , data:Rob_Riggle , data:Drew_Barrymore , data:Dermot_Mulroney , data:Ted_Danson , data:Vinessa_Shaw , data:Tim_Blake_Nelson , data:Stephen_Root , data:Michael_Gaston , data:John_Krasinski ;
+        :hasCategory         data:Children__Family_Movies , data:Dramas ;
+        :hasDescription      "After a reporter writes about whales trapped in the Arctic Circle, the U.S. and U.S.S.R. team up to rescue them in this tale inspired by true events." ;
+        :hasDirector         data:Ken_Kwapis ;
+        :hasRating           :PG ;
+        :hasTitle            "Big Miracle" ;
+        :isOfDuration        "107 min" ;
+        :releasedInYear      2012 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Alan_Marriott  a  :Actor .
+
+data:Constance_Wu  a  :Actor .
+
+data:Sharon_Horgan  a  :Actor .
+
+data:Joaqun_Reyes  a  :Actor .
+
+data:80057700  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Bryan_Batt , data:Sarah_Paulson , data:Peter_Fonda , data:Wendell_Pierce , data:Nicolas_Cage , data:Dana_Gourrier , data:Connie_Nielsen ;
+        :hasCategory         data:Dramas , data:Independent_Movies ;
+        :hasDescription      "A New Orleans politician finds his idealistic plans for rebuilding after a toxic oil spill unraveling thanks to a sex scandal." ;
+        :hasDirector         data:Austin_Stark ;
+        :hasRating           :R ;
+        :hasTitle            "The Runner" ;
+        :isOfDuration        "90 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80126507  a             :Movie ;
+        :addedOnDate         "Thu Sep 28 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_Kingdom , data:Ireland ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "In 1981, an imprisoned Irish Republican Army soldier went on a hunger strike that galvanized his movement and made him a controversial global icon." ;
+        :hasDirector         data:Brendan_Byrne ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Bobby Sands: 66 Days" ;
+        :isOfDuration        "106 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Ophelia_Lovibond
+        a       :Actor .
+
+data:David_Thewlis  a  :Actor .
+
+data:80187061  a             :Movie ;
+        :addedOnDate         "Sat Sep 30 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:South_Korea ;
+        :hasActor            data:Minsik_Choi , data:Dowon_Kwak , data:Byeongeun_Park , data:Sori_Moon , data:Hyeyoung_Ryu , data:Miran_Ra , data:Ki_Hong_Lee , data:Jooyeon_Lee , data:Eunkyung_Shim , data:Sungyu_Jin ;
+        :hasCategory         data:Dramas , data:International_Movies ;
+        :hasDescription      "With the presidency in mind, the incumbent mayor of Seoul runs for an unprecedented third term – and will stop at nothing to keep his secrets hidden." ;
+        :hasDirector         data:Park_Inje ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The Mayor" ;
+        :isOfDuration        "130 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80201906  a             :Movie ;
+        :addedOnDate         "Tue Sep 04 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Forest_Whitaker , data:David_S_Lee , data:Winston_Duke , data:John_Kani , data:Lupita_Nyongo , data:Chadwick_Boseman , data:Letitia_Wright , data:Martin_Freeman , data:Stan_Lee , data:Andy_Serkis , data:Michael_B_Jordan , data:Daniel_Kaluuya , data:Florence_Kasumba , data:Angela_Bassett , data:Sterling_K_Brown , data:Danai_Gurira ;
+        :hasCategory         data:Action__Adventure , data:SciFi__Fantasy ;
+        :hasDescription      "T'Challa, the superpowered new leader of the hidden, highly advanced African nation of Wakanda, strives to protect his home from enemies old and new." ;
+        :hasDirector         data:Ryan_Coogler ;
+        :hasRating           :PG-13 ;
+        :hasTitle            "Black Panther" ;
+        :isOfDuration        "135 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80178151  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:France ;
+        :hasActor            data:Waleed_Zuaiter , data:Hadar_Ratzon_Rotem , data:Noah_Emmerich , data:Nassim_Lyes , data:Alexander_Siddig , data:Sacha_Baron_Cohen ;
+        :hasCategory         data:TV_Thrillers , data:TV_Dramas , data:International_TV_Shows ;
+        :hasDescription      "In the 1960s, Israeli clerk-turned-secret agent Eli Cohen goes deep undercover inside Syria on a perilous, years-long mission to spy for Mossad." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The Spy" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Gaby_Hoffmann  a  :Actor .
+
+data:Taissa_Farmiga  a  :Actor .
+
+data:Nuchanart_Veerakaarn
+        a       :Actor .
+
+data:Forest_Whitaker  a  :Actor .
+
+data:Daran_Norris  a  :Actor .
+
+:NetflixListing  a       owl:Class ;
+        rdfs:subClassOf  provODP:EntityWithProvenance .
+
+data:80239639  a             :Movie ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:RJ_Cyler , data:Mary_Pat_Gleason , data:Kristine_Froseth , data:Shannon_Purser , data:Alan_Ruck , data:Chrissy_Metz , data:Noah_Centineo , data:Alice_Lee , data:Loretta_Devine , data:Lea_Thompson , data:Giorgia_Whigham ;
+        :hasCategory         data:Romantic_Movies , data:Comedies ;
+        :hasDescription      "A wrong-number text sparks a virtual romance between a smart but unpopular teen and a sweet jock who thinks he's talking to a gorgeous cheerleader." ;
+        :hasDirector         data:Ian_Samuels ;
+        :hasRating           :PG-13 ;
+        :hasTitle            "Sierra Burgess Is A Loser" ;
+        :isOfDuration        "106 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Jemima_West  a  :Actor .
+
+data:80182483  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Smita_Malhotra , data:Damandeep_Singh_Baggan , data:Deepak_Chachra , data:Baba_Sehgal ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "An artisan is cheated of his payment, a lion of his throne and a brother of his inheritance in these three stories of deception and justice." ;
+        :hasDirector         data:Tilak_Shetty , data:Munjal_Shroff ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy: Battle of Wits" ;
+        :isOfDuration        "62 min" ;
+        :releasedInYear      2013 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80147760  a             :Movie ;
+        :addedOnDate         "Tue Sep 05 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Colin_ODonoghue , data:Desmin_Borges , data:Vanessa_Bayer , data:Jason_Ritter , data:William_Moseley , data:Gabriel_Byrne , data:Bel_Powley , data:Nathan_Lane ;
+        :hasCategory         data:Comedies , data:Dramas ;
+        :hasDescription      "A socially awkward 19-year-old genius makes big plans to step out of her shell and make a friend, get a job and – maybe – even go on a date." ;
+        :hasDirector         data:Susan_Johnson ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Carrie Pilby" ;
+        :isOfDuration        "98 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:70142798  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Peeratchai_Roompol , data:Chumphorn_Thepphithak , data:Charlie_Trairat , data:Jirayu_Laongmanee , data:Nattapong_Chartpong , data:Gacha_Plienwithi , data:Worrawech_Danuwong , data:Nicole_Theriault , data:Suteerush_Channukool , data:Marsha_Wattanapanich ;
+        :hasCategory         data:International_Movies , data:Horror_Movies ;
+        :hasDescription      "From disfiguring punishments to festering souls, Thai horror masters present five supernatural tales of karma in this sequel to the 4bia anthology." ;
+        :hasDirector         data:Parkpoom_Wongpoom , data:Banjong_Pisanthanakun , data:Visute_Poolvoralaks , data:Paween_Purikitpanya , data:Songyos_Sugmakanan ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Phobia 2" ;
+        :isOfDuration        "125 min" ;
+        :releasedInYear      2009 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Stephen_Campbell_Moore
+        a       :Actor .
+
+:TV-Y7-FV  a             owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Roger_Craig_Smith
+        a       :Actor .
+
+:addedOnDate  a             owl:DatatypeProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          xsd:dateTime ;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+data:Umie_Aida  a  :Actor .
+
+data:Sterling_K_Brown
+        a       :Actor .
+
+data:Beverly_Hills  a  :Actor .
+
+data:80163890  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:Spain ;
+        :hasActor            data:Eloy_Azorn , data:Luca_Jimnez , data:Vernica_Echegui , data:Claudia_Traisac , data:Alberto_Ammann ;
+        :hasCategory         data:International_TV_Shows , data:SpanishLanguage_TV_Shows , data:Crime_TV_Shows ;
+        :hasDescription      "A young journalist is forced into a life of crime to save his father and family in this series based on the novel by Miguel Sáez Carral." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Apaches" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Joshua_Sasse  a  :Actor .
+
+data:David_Dencik  a  :Actor .
+
+data:Farhan_Alam  a  :Director .
+
+data:70234439  a             :TV_Show ;
+        :addedOnDate         "Sat Sep 08 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Peter_Cullen , data:Daran_Norris , data:Ernie_Hudson , data:Josh_Keaton , data:Sumalee_Montano , data:Tania_Gunadi , data:Andy_Pessoa , data:Frank_Welker , data:Kevin_Michael_Richardson , data:Will_Friedle , data:Jeffrey_Combs , data:Steve_Blum ;
+        :hasCategory         data:Kids_TV ;
+        :hasDescription      "With the help of three human allies, the Autobots once again protect Earth from the onslaught of the Decepticons and their leader, Megatron." ;
+        :hasRating           :TV-Y7-FV ;
+        :hasTitle            "Transformers Prime" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2013 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Rupert_Grint  a  :Actor .
+
+data:Mo_Gilligan  a  :Actor .
+
+data:Chindavanich_Primrose
+        a       :Actor .
+
+data:Tom_Fujita  a  :Actor .
+
+data:81053893  a             :Movie ;
+        :addedOnDate         "Sat Sep 28 00:00:00 GST 2019"^^xsd:date ;
+        :hasCategory         data:International_Movies , data:Documentaries ;
+        :hasDescription      "An in-depth look at the full-cycle breeding program for bluefin Kindai tuna pioneered by Kinki University’s Aqua Culture Research Institute." ;
+        :hasDirector         data:Mana_Yasuda ;
+        :hasRating           :TV-G ;
+        :hasTitle            "Cultivating the Seas: History and Future of the Full-Cycle Cultured Kindai Tuna" ;
+        :isOfDuration        "45 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Spain  a   :Country .
+
+data:Athipich_Chutiwatkajornchai
+        a       :Actor .
+
+data:Kris_Srepoomseth
+        a       :Actor .
+
+data:Anne_Winters  a  :Actor .
+
+data:Kim_A_Snyder  a  :Director .
+
+data:Andr_Wilms  a  :Actor .
+
+data:Jason_Flemyng  a  :Actor .
+
+data:Peyton_List  a  :Actor .
+
+:isOfDuration  a            owl:DatatypeProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          xsd:string ;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+data:Seda_Bakan  a  :Actor .
+
+data:80201933  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Reality_TV , data:International_TV_Shows , data:SpanishLanguage_TV_Shows ;
+        :hasDescription      "These Mexico City socialites may lead opulent lives, but a peek behind the curtain reveals a tangled web of intrigue, envy and personal struggles." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Made in Mexico" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Theeradej_Wongpuapan
+        a       :Actor .
+
+data:Reza_Rahadian  a  :Actor .
+
+data:Scott_Adkins  a  :Actor .
+
+data:Belgium  a  :Country .
+
+data:Ungsumalynn_Sirapatsakmetha
+        a       :Actor .
+
+data:Will_King  a  :Actor .
+
+data:Erma_Fatima  a  :Actor .
+
+data:James_Badge_Dale
+        a       :Actor .
+
+data:Jennifer_Lafleur
+        a       :Actor .
+
+data:Ryan_Coogler  a  :Director .
+
+data:Gacha_Plienwithi
+        a       :Actor .
+
+data:Chadwick_Boseman
+        a       :Actor .
+
+data:Dermot_Mulroney  a  :Actor .
+
+data:Robert_Sheehan  a  :Actor .
+
+data:80157072  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Macon_Blair , data:Alexander_Skarsgrd , data:Riley_Keough , data:Peter_McRobbie , data:Julian_Black_Antelope , data:Jeffrey_Wright , data:James_Badge_Dale , data:Jonathan_Whitesell , data:Tantoo_Cardinal ;
+        :hasCategory         data:Action__Adventure , data:Dramas ;
+        :hasDescription      "In the grim Alaskan winter, a naturalist hunts for wolves blamed for killing a local boy, but he soon finds himself swept into a chilling mystery." ;
+        :hasDirector         data:Jeremy_Saulnier ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Hold the Dark" ;
+        :isOfDuration        "126 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80182621  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Damandeep_Singh_Baggan , data:Baba_Sehgal , data:Smita_Malhotra ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "The consequences of trickery are explored in stories involving an inconsiderate husband, two greedy courtiers, and a kind man who loses everything." ;
+        :hasDirector         data:Tilak_Shetty , data:Munjal_Shroff ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy: The Greatest Trick" ;
+        :isOfDuration        "60 min" ;
+        :releasedInYear      2013 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Radha_Bessy  a  :Actor .
+
+data:Mem_Ferda  a  :Actor .
+
+[ a            owl:AllDisjointClasses ;
+  owl:members  ( :NR :PG :PG-13 :R :TV-14 :TV-G :TV-MA :TV-PG :TV-Y :TV-Y7 :TV-Y7-FV )
+] .
+
+data:Shuri_Tanaka  a  :Actor .
+
+data:80182597  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Deepak_Chachra , data:Rishi_Gambhir , data:Smita_Malhotra ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "A cat, monkey and donkey learn the consequences of cheating through stories from the Indian regions of Rajasthan, West Bengal and Maharashtra." ;
+        :hasDirector         data:Tilak_Shetty ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy: Oversmartness Never Pays" ;
+        :isOfDuration        "65 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Tom_Gianas  a  :Director .
+
+data:Sweden  a  :Country .
+
+data:Ugo_Fox  a  :Actor .
+
+data:Pam_Rose  a  :Actor .
+
+data:80158839  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Pachara_Chirathivat , data:Nattasha_Nauljam , data:Thawat_Pornrattanaprasert , data:Jirayu_Laongmanee ;
+        :hasCategory         data:International_Movies , data:Comedies ;
+        :hasDescription      "When his boyhood crush Ern returns, Ped forms a band with his friend to impress her. Romantic rivalries bloom after the talented Ern joins the group." ;
+        :hasDirector         data:Chayanop_Boonprakob ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Suckseed" ;
+        :isOfDuration        "130 min" ;
+        :releasedInYear      2011 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+:hasActor  a                owl:ObjectProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          :Actor ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+data:Raditya_Dika  a  :Actor , :Director .
+
+data:Sutthatip_Wutichaipradit
+        a       :Actor .
+
+data:Michael_Douglas  a  :Actor .
+
+data:Mana_Yasuda  a  :Director .
+
+data:Mark_van_Eeuwen  a  :Actor .
+
+data:Seda_Gven  a  :Actor .
+
+data:80244601  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :hasActor            data:Nattapong_Chartpong , data:Keerati_Mahapreukpong , data:Worrawech_Danuwong , data:Kornpassorn_Duaysianklao , data:Yong_Armchair , data:Chaiyapol_Pupart , data:Akarat_Nimitchai , data:Ornjira_Lamwilai , data:Jintanutda_Lummakanon ;
+        :hasCategory         data:Romantic_TV_Shows , data:TV_Comedies , data:International_TV_Shows ;
+        :hasDescription      "As four couples with different lifestyles go through the ebbs and flows of joy and sorrow, each must learn how to live a good life." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Castle of Stars" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Jake_Borelli  a  :Actor .
+
+data:Carice_van_Houten
+        a       :Actor .
+
+data:Dewi_Hughes  a  :Actor .
+
+data:Hermila_Guedes  a  :Actor .
+
+data:Nassar  a  :Actor .
+
+data:Monique_Gardenberg
+        a       :Director .
+
+data:Unnop_Chanpaibool
+        a       :Actor .
+
+data:Phyllis_Somerville
+        a       :Actor .
+
+data:Anna_Mouglalis  a  :Actor .
+
+data:80046727  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States , data:Uruguay ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "As the newspaper industry takes a hit, The Denver Post breaks new ground with a section dedicated to cannabis culture." ;
+        :hasDirector         data:Mitch_Dickman ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Rolling Papers" ;
+        :isOfDuration        "79 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Fedi_Nuril  a  :Actor .
+
+data:Mitch_Dickman  a  :Director .
+
+data:Marc_Maron  a  :Actor .
+
+:hasDirector  a             owl:ObjectProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          :Director ;
+        rdfs:subPropertyOf  owl:topObjectProperty .
+
+data:Sopon_Sukdapisit
+        a       :Director .
+
+data:Dborah_Rvy  a  :Actor .
+
+data:Karl_Glusman  a  :Actor .
+
+data:Mohammed_Zeeshan_Ayyub
+        a       :Actor .
+
+data:Desmin_Borges  a  :Actor .
+
+data:Ali_Yourtuolu  a  :Actor .
+
+data:Ken_Kwapis  a  :Director .
+
+data:Dylan_McDermott  a  :Actor .
+
+data:Fuka_Koshiba  a  :Actor .
+
+data:Sam_Spruell  a  :Actor .
+
+data:Raline_Shah  a  :Actor .
+
+data:Bingkun_Cao  a  :Actor .
+
+data:Alice_Lee  a  :Actor .
+
+data:Jim_Sturgess  a  :Actor .
+
+data:Antonio_Banderas
+        a       :Actor .
+
+data:Comedies  a  :Category .
+
+data:Gina_Gershon  a  :Actor .
+
+:R      a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Richard_Finn  a  :Director .
+
+data:Austin_Stark  a  :Director .
+
+data:Sushanth_Reddy  a  :Actor .
+
+data:Edmund_Kingsley  a  :Actor .
+
+data:Rermthon_Kemapech
+        a       :Actor .
+
+data:81078908  a             :Movie ;
+        :addedOnDate         "Wed Sep 04 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Kevin_Sizemore , data:Caleb_Castille , data:Rose_Reid , data:Gregory_Alan_Williams ;
+        :hasCategory         data:Dramas , data:Romantic_Movies ;
+        :hasDescription      "A teenage equestrian and a local football player for each other, but simmering racism in their small town puts their relationship to the test." ;
+        :hasDirector         data:Brian_Baugh ;
+        :hasRating           :PG ;
+        :hasTitle            "The World We Make" ;
+        :isOfDuration        "108 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:United_States  a  :Country .
+
+data:Phumphothingam_Nawat
+        a       :Actor .
+
+:TV-G   a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Shofia_Shireen  a  :Actor .
+
+data:Su_Ke  a   :Actor .
+
+data:Carla_Gugino  a  :Actor .
+
+data:Andy_Serkis  a  :Actor .
+
+data:Randy_Nidji  a  :Actor .
+
+data:Derek_Lyons  a  :Actor .
+
+data:Alicia_Sanz  a  :Actor .
+
+data:Bobby_Moynihan  a  :Actor .
+
+data:Horror_Movies  a  :Category .
+
+data:SpanishLanguage_TV_Shows
+        a       :Category .
+
+data:Celeste_Henderson
+        a       :Actor .
+
+data:Martin_Freeman  a  :Actor .
+
+data:Jason_Ritter  a  :Actor .
+
+data:Tantoo_Cardinal  a  :Actor .
+
+data:Haluk_Bilginer  a  :Actor .
+
+data:Independent_Movies
+        a       :Category .
+
+data:Sivagorn_Muttamara
+        a       :Actor .
+
+data:Louis_Cancelmi  a  :Actor .
+
+data:80163293  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Erma_Fatima , data:Umie_Aida , data:Rahim_Razali , data:Nora_Danish ;
+        :hasCategory         data:TV_Comedies , data:International_TV_Shows , data:TV_Dramas ;
+        :hasDescription      "A woman with an entrepreneurial spirit takes life into her own hands by starting a beauty cream business that inspires other women to take chances." ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Mak Cun" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Ted_Danson  a  :Actor .
+
+data:Saleem_Mairaj  a  :Actor .
+
+:releasedInYear  a          owl:DatatypeProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          xsd:integer ;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+data:Gornpop_Janjaroen
+        a       :Actor .
+
+:TV-PG  a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Jlio_Andrade  a  :Actor .
+
+data:Documentaries  a  :Category .
+
+data:Mitchell_Whitfield
+        a       :Actor .
+
+data:Maya_Coline  a  :Actor .
+
+data:70304990  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_Kingdom , data:Sweden , data:Denmark , data:United_States ;
+        :hasActor            data:Anna_Friel , data:Michael_Jibson , data:Thomas_Arnold , data:Sam_Spruell , data:Kate_Hudson , data:Tom_Wilkinson , data:James_Franco , data:Diana_Hardcastle , data:Omar_Sy , data:Oliver_Dimsdale , data:Diarmaid_Murtagh ;
+        :hasCategory         data:Thrillers , data:Action__Adventure ;
+        :hasDescription      "A struggling couple can't believe their luck when they find a stash of money in the apartment of a neighbor who was recently murdered." ;
+        :hasDirector         data:Henrik_Ruben_Genz ;
+        :hasRating           :R ;
+        :hasTitle            "Good People" ;
+        :isOfDuration        "90 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Natthaweeranuch_Thongmee
+        a       :Actor .
+
+data:Bulgaria  a  :Country .
+
+data:Ken_Stott  a  :Actor .
+
+data:81001809  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "Two priests – one from Dunblane, Scotland, the other from Newtown, Connecticut – bond over school tragedies that occurred 16 years apart." ;
+        :hasDirector         data:Kim_A_Snyder ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Lessons from a School Shooting: Notes from Dunblane" ;
+        :isOfDuration        "24 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Jason_Sudeikis  a  :Actor .
+
+data:Diarmaid_Murtagh
+        a       :Actor .
+
+data:Steve_Blum  a  :Actor .
+
+data:Nontapan_Chuenwarin
+        a       :Actor .
+
+data:Yijuan_Li  a  :Actor .
+
+:TV-Y7  a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Joshua_Leonard  a  :Actor .
+
+data:Selina_Lo  a  :Actor .
+
+data:Chiara_Aurelia  a  :Actor .
+
+data:Devin_Kelley  a  :Actor .
+
+data:David_Cross  a  :Actor .
+
+data:Marjorie_Estiano
+        a       :Actor .
+
+:Rating  a      owl:Class .
+
+data:David_S_Lee  a  :Actor .
+
+data:Riley_Smith  a  :Actor .
+
+data:80119349  a             :Movie ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :hasCategory         data:Documentaries , data:International_Movies ;
+        :hasDescription      "Picking up 40 years after six were convicted for two strange murders in Iceland, this chilling documentary proves confessions can’t always be trusted." ;
+        :hasDirector         data:Dylan_Howitt ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Out of Thin Air" ;
+        :isOfDuration        "85 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Thrillers  a  :Category .
+
+data:President_Barack_Obama
+        a       :Actor .
+
+data:Juan_Saavedra  a  :Actor .
+
+data:70304989  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:Canada , data:United_States , data:Spain , data:Bulgaria ;
+        :hasActor            data:Robert_Forster , data:David_Ryall , data:Birgitte_Hjort_Srensen , data:Andy_Nyman , data:Antonio_Banderas , data:Dylan_McDermott , data:Melanie_Griffith , data:Christa_Campbell , data:Tim_McInnerny ;
+        :hasCategory         data:Thrillers , data:International_Movies , data:SciFi__Fantasy ;
+        :hasDescription      "In a dystopian future, an insurance adjuster for a tech company investigates a robot killed for violating protocol and discovers a global conspiracy." ;
+        :hasDirector         data:Gabe_Ibez ;
+        :hasRating           :R ;
+        :hasTitle            "Automata" ;
+        :isOfDuration        "110 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Laurent_Stocker  a  :Actor .
+
+data:Scott_William_Winters
+        a       :Actor .
+
+data:Ananda_Everingham
+        a       :Actor .
+
+data:Lindsay_Burdge  a  :Actor .
+
+data:enol_Snmez  a  :Director .
+
+data:Hadar_Ratzon_Rotem
+        a       :Actor .
+
+data:Carel_Struycken  a  :Actor .
+
+data:Gerardo_Olivares
+        a       :Director .
+
+data:Rukhsar  a  :Actor .
+
+data:India  a       :Country ;
+        owl:sameAs  <http://sws.geonames.org/1269750/> .
+
+data:Sren_Malling  a  :Actor .
+
+data:Mekhi_Phifer  a  :Actor .
+
+data:80182480  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Smita_Malhotra , data:Baba_Sehgal , data:Damandeep_Singh_Baggan ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "A team of minstrels, including a monkey, cat and donkey, narrate folktales from the Indian regions of Rajasthan, Kerala and Punjab." ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy" ;
+        :isOfDuration        "58 min" ;
+        :releasedInYear      2009 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+:hasDescription  a          owl:DatatypeProperty ;
+        rdfs:domain         :NetflixListing ;
+        rdfs:range          xsd:string ;
+        rdfs:subPropertyOf  owl:topDataProperty .
+
+data:Zhang_Jungyi  a  :Actor .
+
+data:Riley_Keough  a  :Actor .
+
+data:Thailand  a  :Country .
+
+data:Raj_Arjun  a  :Actor .
+
+data:80113482  a             :TV_Show ;
+        :addedOnDate         "Tue Sep 05 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Sarayu_Blue , data:Joshua_Sasse , data:Amy_Pietz , data:Jonathan_Langdon , data:Jesse_Rath , data:Tori_Anderson ;
+        :hasCategory         data:Romantic_TV_Shows , data:TV_Comedies , data:TV_Dramas ;
+        :hasDescription      "Her straitjacketed life turned topsy-turvy by hunky Xavier, Evie discovers a new freedom – even though her man just might be an end-of-days crackpot." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "No Tomorrow" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Gabriel_Byrne  a  :Actor .
+
+data:Mustafa_Sandal  a  :Actor .
+
+data:Anisha_Ambrose  a  :Actor .
+
+data:Robert_Forster  a  :Actor .
+
+data:Alan_Ruck  a  :Actor .
+
+data:SciFi__Fantasy  a  :Category .
+
+data:Anubhav_Sinha  a  :Director .
+
+data:Anthony_Ruivivar
+        a       :Actor .
+
+data:Preechaya_Pongthananikorn
+        a       :Actor .
+
+data:Jintanutda_Lummakanon
+        a       :Actor .
+
+data:Baba_Sehgal  a  :Actor .
+
+data:Jooyeon_Lee  a  :Actor .
+
+data:81173255  a             :Movie ;
+        :addedOnDate         "Wed Sep 04 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:Canada ;
+        :hasActor            data:Nina_Richmond , data:Ry_Barrett , data:Nina_Kiri , data:Will_King , data:Jorja_Cadence ;
+        :hasCategory         data:Horror_Movies ;
+        :hasDescription      "A withdrawn young woman hunted by a malicious cult is abducted by a brooding stranger and undergoes a bizarre transformation." ;
+        :hasDirector         data:Chad_Archibald ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The Heretics" ;
+        :isOfDuration        "88 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Dede_Yusuf  a  :Actor .
+
+data:Hafizul_Kamal  a  :Actor .
+
+data:Chandra_Liow  a  :Actor .
+
+data:Vishwaksen_Naidu
+        a       :Actor .
+
+data:Park_Inje  a  :Director .
+
+data:Hidetoshi_Hoshida
+        a       :Actor .
+
+data:Julia_Konrad  a  :Actor .
+
+data:Kids_TV  a  :Category .
+
+data:Cult_Movies  a  :Category .
+
+data:Jordan_Fisher  a  :Actor .
+
+data:Rocky_Soraya  a  :Director .
+
+data:Benot_Debie  a  :Actor .
+
+data:Angus_MacInnes  a  :Actor .
+
+data:lvaro_Longoria  a  :Director .
+
+data:Oliver_Dimsdale  a  :Actor .
+
+data:Sananthachat_Thanapatpisal
+        a       :Actor .
+
+data:Pachara_Chirathivat
+        a       :Actor .
+
+data:Bianca_Hello  a  :Actor .
+
+data:Turkey  a  :Country .
+
+data:Peter_Vack  a  :Actor .
+
+data:Nattasha_Nauljam
+        a       :Actor .
+
+data:Anuskha_Sharma  a  :Actor .
+
+data:Rory_Kinnear  a  :Actor .
+
+data:Karen_Strassman  a  :Actor .
+
+data:Fernando_Lebrija
+        a       :Director .
+
+data:Constance_Zimmer
+        a       :Actor .
+
+data:Gaspar_No  a  :Actor , :Director .
+
+data:81176188  a             :Movie ;
+        :addedOnDate         "Thu Sep 05 00:00:00 GST 2019"^^xsd:date ;
+        :hasActor            data:Julia_Reichert , data:Steven_Bognar , data:Michelle_Obama , data:President_Barack_Obama ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "Barack and Michelle Obama talk with directors Steven Bognar and Julia Reichert about the documentary and the importance of storytelling." ;
+        :hasRating           :TV-G ;
+        :hasTitle            "American Factory: A Conversation with the Obamas" ;
+        :isOfDuration        "10 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80181555  a             :TV_Show ;
+        :addedOnDate         "Sat Sep 30 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasCategory         data:International_TV_Shows , data:British_TV_Shows , data:Docuseries ;
+        :hasDescription      "Drawing on newly available info, this show traces how the British royal family has survived the last 100 years of power struggles, politics and more." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "The Royal House of Windsor" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Smita_Malhotra  a  :Actor .
+
+data:Zach_Grenier  a  :Actor .
+
+data:Saharat_Sangkapreecha
+        a       :Actor .
+
+data:Tony_Hale  a  :Actor .
+
+data:Popetorn_Soonthornyanakij
+        a       :Actor .
+
+:NR     a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:81160036  a             :Movie ;
+        :addedOnDate         "Wed Sep 04 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:Pakistan ;
+        :hasActor            data:Karam_Hussain , data:Arif_Bahlim , data:Sohail_Malik , data:Saleem_Mairaj , data:Daniyal_Yousuf , data:Ali_Hafiz , data:Imran_Aslam , data:Najiba_Faiz ;
+        :hasCategory         data:Independent_Movies , data:International_Movies , data:Dramas ;
+        :hasDescription      "Outcast from society and left to die in the wilderness, a young boy with polio embarks on a journey to connect with his mother. Based on a true story." ;
+        :hasDirector         data:Farhan_Alam ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Saawan" ;
+        :isOfDuration        "128 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Vinessa_Shaw  a  :Actor .
+
+data:Indonesia  a  :Country .
+
+data:International_Movies
+        a       :Category .
+
+data:Stan_Lee  a  :Actor .
+
+data:80988892  a             :Movie ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States , data:Canada , data:China ;
+        :hasActor            data:Jason_Sudeikis , data:John_Krasinski , data:David_Cross , data:Michael_Pea , data:Constance_Wu , data:Charlyne_Yi ;
+        :hasCategory         data:Comedies , data:SciFi__Fantasy , data:Children__Family_Movies ;
+        :hasDescription      "When lonely Mai forms an unlikely bond with a top-secret robot, they embark on an intense, action-packed adventure to foil the plot of a vicious villain." ;
+        :hasDirector         data:Joe_Ksander , data:Kevin_R_Adams ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Next Gen" ;
+        :isOfDuration        "106 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+<https://www.kaggle.com/shivamb/netflix-shows>
+        a       provODP:ProvenanceActivity , owl:NamedIndividual .
+
+data:80125979  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Kate_Walsh , data:Alicia_Sanz , data:Yousef_Erakat , data:Keith_Powers , data:John_Michael_Higgins , data:Rebekah_Graf , data:Jake_Borelli , data:Peter_Gilroy , data:Patrick_Davis , data:Anne_Winters , data:Kid_Ink , data:Nesta_Cooper ;
+        :hasCategory         data:Comedies ;
+        :hasDescription      "When nerdy high schooler Dani finally attracts the interest of her longtime crush, she lands in the cross hairs of his ex, a social media celebrity." ;
+        :hasDirector         data:Fernando_Lebrija ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "#realityhigh" ;
+        :isOfDuration        "99 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Rose_Reid  a  :Actor .
+
+data:Adisorn_Tresirikasem
+        a       :Director .
+
+data:Saykoji  a  :Actor .
+
+data:Docuseries  a  :Category .
+
+data:Kari_Wahlgren  a  :Actor .
+
+data:80104068  a             :Movie ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Robert_Redford , data:Phyllis_Somerville , data:Bruce_Dern , data:Judy_Greer , data:Matthias_Schoenaerts , data:Jane_Fonda , data:Iain_Armitage ;
+        :hasCategory         data:Romantic_Movies , data:Dramas ;
+        :hasDescription      "After widowed neighbors Addie and Louis begin sleeping in bed together platonically to alleviate their loneliness, a real romance begins to blossom." ;
+        :hasDirector         data:Ritesh_Batra ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Our Souls at Night" ;
+        :isOfDuration        "103 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:80203094  a             :Movie ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "Women who've been sexually brutalized in war-torn Congo begin to heal at City of Joy, a center that helps them regain a sense of self and empowerment." ;
+        :hasDirector         data:Madeleine_Gavin ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "City of Joy" ;
+        :isOfDuration        "77 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Laurie_Goode  a  :Actor .
+
+data:Mez_Tharatorn  a  :Director .
+
+:Category  a    owl:Class .
+
+data:81027384  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Docuseries ;
+        :hasDescription      "This U.S.-focused series dives into the cultural and political changes that swept the last decade of the 20th century. Executive produced by Tom Hanks." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "The Nineties" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Sacha_Baron_Cohen
+        a       :Actor .
+
+data:Kevin_Andrean  a  :Actor .
+
+data:81016750  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Indonesia ;
+        :hasActor            data:Voke_Victoria , data:Anita_Hara , data:Derry_Drajat , data:Citra_Prima , data:Epy_Kusnandar , data:Shofia_Shireen , data:Bianca_Hello , data:Denny_Sumargo , data:Jessica_Mila , data:Afdhal_Yusman ;
+        :hasCategory         data:Horror_Movies , data:International_Movies ;
+        :hasDescription      "When her little sister claims she sees the dead, Alia consults a psychic, who opens her own eyes to the vengeful ghosts haunting their childhood home." ;
+        :hasDirector         data:Rocky_Soraya ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "The 3rd Eye" ;
+        :isOfDuration        "108 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Venkatesh_Kakumanu
+        a       :Actor .
+
+data:Ki_Hong_Lee  a  :Actor .
+
+data:John_Michael_Higgins
+        a       :Actor .
+
+data:Sirin_Horwang  a  :Actor .
+
+data:Miran_Ra  a  :Actor .
+
+data:Chantavit_Dhanasevi
+        a       :Actor .
+
+data:Remy_Ishak  a  :Actor .
+
+data:Dana_Gourrier  a  :Actor .
+
+data:Jennifer_Coolidge
+        a       :Actor .
+
+data:Nora_Danish  a  :Actor .
+
+data:80200087  a             :Movie ;
+        :addedOnDate         "Sat Sep 28 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:Netherlands , data:Italy , data:France , data:Belgium , data:Denmark ;
+        :hasActor            data:Guy_Pearce , data:Mohammed_Azaay , data:Carice_van_Houten , data:Nikolaj_CosterWaldau , data:Paprika_Steen , data:Helena_Kaittani , data:Eriq_Ebouaney , data:Sren_Malling ;
+        :hasCategory         data:International_Movies , data:Thrillers ;
+        :hasDescription      "A Copenhagen police officer hunts for the man who attacked his partner, only to stumble into a high-stakes game of espionage." ;
+        :hasDirector         data:Brian_De_Palma ;
+        :hasRating           :R ;
+        :hasTitle            "Domino" ;
+        :isOfDuration        "89 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+:Person  a      owl:Class .
+
+data:Didi_Petet  a  :Actor .
+
+data:Damandeep_Singh_Baggan
+        a       :Actor .
+
+data:Susan_Johnson  a  :Director .
+
+data:Denmark  a  :Country .
+
+data:Seu_Jorge  a  :Actor .
+
+data:Isabelle_Candelier
+        a       :Actor .
+
+data:81002864  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Indonesia ;
+        :hasActor            data:Rinna_Hassim , data:Babe_Cabita , data:Annisa_Rawles , data:Dewi_Hughes , data:Chandra_Liow , data:Dede_Yusuf , data:Raditya_Dika , data:Pevita_Pearce , data:Elvira_Devinamira , data:Tinna_Harahap , data:Pandji_Pragiwaksono ;
+        :hasCategory         data:International_Movies , data:Romantic_Movies , data:Comedies ;
+        :hasDescription      "Unemployed and immature, a somewhat pathetic bachelor sets his sights on finding a date for the wedding of his younger, more successful brother." ;
+        :hasDirector         data:Raditya_Dika ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Single" ;
+        :isOfDuration        "127 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Kevin_Bishop  a  :Actor .
+
+data:Nick_Swardson  a  :Actor .
+
+data:Dborah_Franois  a  :Actor .
+
+:PG     a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Munjal_Shroff  a  :Director .
+
+data:Zhou_Dongyu  a  :Actor .
+
+data:80128317  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Docuseries ;
+        :hasDescription      "This nostalgic documentary series relives the 1980s from a variety of angles, exploring its impact on the politics, technology and culture of today." ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "The Eighties" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Sinad_Cusack  a  :Actor .
+
+data:81016044  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Charlie_Trairat , data:Kazuki_Yano , data:Ungsumalynn_Sirapatsakmetha , data:Theeradej_Wongpuapan , data:Panissara_Phimpru , data:Taksaorn_Paksukcharern , data:Sirin_Horwang ;
+        :hasCategory         data:International_Movies , data:Romantic_Movies , data:Comedies ;
+        :hasDescription      "After an encounter with an engineer working the night shift for the city train, a 30-year-old woman struggles against all odds to pursue true love." ;
+        :hasDirector         data:Adisorn_Tresirikasem ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Bangkok Traffic (Love) Story" ;
+        :isOfDuration        "126 min" ;
+        :releasedInYear      2009 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Karthik_Rathnam  a  :Actor .
+
+data:80019931  a             :Movie ;
+        :addedOnDate         "Tue Sep 29 00:00:00 GST 2015"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Rachel_Staman , data:Karen_Strassman , data:Celeste_Henderson , data:Wendee_Lee , data:America_Young , data:TJ_Smith , data:Laura_Bailey ;
+        :hasCategory         data:Children__Family_Movies , data:Music__Musicals ;
+        :hasDescription      "Cleo is invited to a gala in the big city celebrating a magical comet and brings her best friends along. But the sinister Nefera has other plans." ;
+        :hasDirector         data:William_Lau ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "\"Monster High: Boo York, Boo York\"" ;
+        :isOfDuration        "72 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Romantic_Movies  a  :Category .
+
+data:Harriet_Walter  a  :Actor .
+
+data:Crime_TV_Shows  a  :Category .
+
+data:80169755  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Joaqun_Reyes ;
+        :hasCategory         data:StandUp_Comedy ;
+        :hasDescription      "Comedian and celebrity impersonator Joaquín Reyes decides to be his zesty self for a night of stories about buses, bathroom habits, royalty and more." ;
+        :hasDirector         data:Jos_Miguel_Contreras ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Joaquín Reyes: Una y no más" ;
+        :isOfDuration        "78 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Robert_Redford  a  :Actor .
+
+data:Jennifer_Cameron
+        a       :Actor .
+
+data:Henry_Thomas  a  :Actor .
+
+data:Matthias_Schoenaerts
+        a       :Actor .
+
+data:Daniel_Kaluuya  a  :Actor .
+
+data:Chris_Howe  a  :Director .
+
+data:Jandino_Asporaat
+        a       :Actor .
+
+data:Li_Yi_Feng  a  :Actor .
+
+data:Kat_Gellin  a  :Actor .
+
+data:Caleb_Castille  a  :Actor .
+
+data:Montse_Hernandez
+        a       :Actor .
+
+data:Gabe_Ibez  a  :Director .
+
+data:Loretta_Devine  a  :Actor .
+
+data:Danny_McBride  a  :Actor .
+
+data:Olivia_Williams  a  :Actor .
+
+data:80182482  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Baba_Sehgal , data:Smita_Malhotra , data:Damandeep_Singh_Baggan ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "In three comic-strip-style tales, a boy tries to sell wisdom, a demon is released from captivity, and a king assigns impossible tasks to his minister." ;
+        :hasDirector         data:Tilak_Shetty ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Krish Trish and Baltiboy: Comics of India" ;
+        :isOfDuration        "61 min" ;
+        :releasedInYear      2012 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Tori_Anderson  a  :Actor .
+
+data:Guy_Pearce  a  :Actor .
+
+data:Brad_Anderson  a  :Director .
+
+data:Subba_Rao_Vepada
+        a       :Actor .
+
+data:Stuart_Allan  a  :Actor .
+
+data:Romantic_TV_Shows
+        a       :Category .
+
+data:Tania_Gunadi  a  :Actor .
+
+data:Sabine_Azma  a  :Actor .
+
+data:Aelya_Topalolu  a  :Actor .
+
+data:South_Korea  a  :Country .
+
+data:Garrick_Hagon  a  :Actor .
+
+data:Sara_Ali  a  :Actor .
+
+data:Dowon_Kwak  a  :Actor .
+
+data:Stephen_Root  a  :Actor .
+
+data:80113641  a             :TV_Show ;
+        :addedOnDate         "Mon Sep 04 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Daniel_Bonjour , data:Devin_Kelley , data:Mekhi_Phifer , data:Lenny_Jacobson , data:Riley_Smith , data:Anthony_Ruivivar , data:Peyton_List ;
+        :hasCategory         data:TV_Mysteries , data:Crime_TV_Shows , data:TV_Dramas ;
+        :hasDescription      "A detective seizes a precious opportunity to change the past when she finds she can communicate with her deceased, estranged father via a time warp." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Frequency" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Engin_Altan_Dzyatan
+        a       :Actor .
+
+data:Paween_Purikitpanya
+        a       :Director .
+
+data:Subhrajyoti_Barat
+        a       :Actor .
+
+data:81053892  a             :Movie ;
+        :addedOnDate         "Sat Sep 28 00:00:00 GST 2019"^^xsd:date ;
+        :hasActor            data:Chal_Inoue , data:Hidetoshi_Hoshida , data:Fuka_Koshiba , data:Takashi_Taniguchi , data:Hiroto_Kanai , data:Takeshi_Masu , data:Shuri_Tanaka , data:Tom_Fujita , data:Ryosuke_Yusa ;
+        :hasCategory         data:Dramas , data:International_Movies ;
+        :hasDescription      "A clumsy but cheerful fisheries student struggles to find her place at a research institute renowned for its tuna cultivation. The work isn't easy." ;
+        :hasDirector         data:Mana_Yasuda ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "TUNA GIRL" ;
+        :isOfDuration        "90 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Peter_Cullen  a  :Actor .
+
+data:Kumud_Mishra  a  :Actor .
+
+data:80117401  a             :Movie ;
+        :addedOnDate         "Fri Sep 09 00:00:00 GST 2016"^^xsd:date ;
+        :fromCountry         data:United_Kingdom ;
+        :hasActor            data:Jandino_Asporaat ;
+        :hasCategory         data:StandUp_Comedy ;
+        :hasDescription      "Jandino Asporaat riffs on the challenges of raising kids and serenades the audience with a rousing rendition of \"\"Sex on Fire\"\" in his comedy show." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Jandino: Whatever it Takes" ;
+        :isOfDuration        "94 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Thomas_Cocquerel
+        a       :Actor .
+
+data:Thomas_Arnold  a  :Actor .
+
+data:Pevita_Pearce  a  :Actor .
+
+data:80128722  a             :Movie ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Chiara_Aurelia , data:Henry_Thomas , data:Carla_Gugino , data:Bruce_Greenwood , data:Carel_Struycken ;
+        :hasCategory         data:Horror_Movies , data:Thrillers ;
+        :hasDescription      "When her husband's sex game goes wrong, Jessie – handcuffed to a bed in a remote lake house – faces warped visions, dark secrets and a dire choice." ;
+        :hasDirector         data:Mike_Flanagan ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Gerald's Game" ;
+        :isOfDuration        "103 min" ;
+        :releasedInYear      2017 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:81011682  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Docuseries ;
+        :hasDescription      "A contextual, acculturated dive into how adults in six, big global cities celebrate love and accentuate sex. CNN's Christiane Amanpour reports." ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Christiane Amanpour: Sex & Love Around the World" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Emily_Axford  a  :Actor .
+
+data:Peter_McRobbie  a  :Actor .
+
+data:Chelsea_Kane  a  :Actor .
+
+data:Elvira_Devinamira
+        a       :Actor .
+
+data:Chad_Archibald  a  :Director .
+
+data:Ryan_Kwanten  a  :Actor .
+
+data:David_Kaye  a  :Actor .
+
+data:Pok_Piyatida_Woramusik
+        a       :Actor .
+
+data:Paprika_Steen  a  :Actor .
+
+data:80992039  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Spain ;
+        :hasCategory         data:International_Movies , data:Documentaries ;
+        :hasDescription      "Lawmakers and activists with conflicting ideologies speak about the complexities of Catalonia's politics and the fight for its independence from Spain." ;
+        :hasDirector         data:lvaro_Longoria , data:Gerardo_Olivares ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Two Catalonias" ;
+        :isOfDuration        "117 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:John_Krasinski  a  :Actor .
+
+data:Akarat_Nimitchai
+        a       :Actor .
+
+data:80180449  a             :TV_Show ;
+        :addedOnDate         "Fri Sep 29 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Rita_Rudaini , data:Miller_Khan , data:Remy_Ishak , data:Mirza_Salihovic , data:Sara_Ali , data:Hafizul_Kamal ;
+        :hasCategory         data:International_TV_Shows , data:TV_Dramas ;
+        :hasDescription      "A man haunted by his wife's affair moves to Sarajevo and starts to love again, until fate forces him to choose between his new life and old loyalty." ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Satu Hari" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Voke_Victoria  a  :Actor .
+
+data:Prim_Bulakul  a  :Actor .
+
+data:Danai_Gurira  a  :Actor .
+
+data:Tom_Audenaert  a  :Actor .
+
+data:80152447  a             :Movie ;
+        :addedOnDate         "Thu Sep 07 00:00:00 GST 2017"^^xsd:date ;
+        :fromCountry         data:Belgium , data:France ;
+        :hasActor            data:Sabine_Azma , data:Dborah_Franois , data:Guillaume_Canet , data:Freya_Mavor , data:Guillaume_Gallienne , data:Isabelle_Candelier , data:Alice_Pol , data:Laurent_Stocker ;
+        :hasCategory         data:Dramas , data:International_Movies , data:Independent_Movies ;
+        :hasDescription      "This historical drama explores the long and often volatile friendship of painter Paul Cézanne and writer Émile Zola, who first met as schoolboys." ;
+        :hasDirector         data:Daniele_Thompson ;
+        :hasRating           :R ;
+        :hasTitle            "Cézanne et moi" ;
+        :isOfDuration        "114 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Brian_Dobson  a  :Actor .
+
+data:Munishkanth  a  :Actor .
+
+data:80182596  a             :Movie ;
+        :addedOnDate         "Fri Sep 08 00:00:00 GST 2017"^^xsd:date ;
+        :hasActor            data:Smita_Malhotra , data:Deepak_Chachra , data:Damandeep_Singh_Baggan ;
+        :hasCategory         data:Children__Family_Movies ;
+        :hasDescription      "A cat, monkey and donkey team up to narrate folktales about friendship from Northeast India, and the Indian regions of Bihar and Rajasthan." ;
+        :hasDirector         data:Munjal_Shroff , data:Tilak_Shetty ;
+        :hasRating           :TV-Y ;
+        :hasTitle            "Krish Trish and Baltiboy: Best Friends Forever" ;
+        :isOfDuration        "65 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Rajkumar_Hirani  a  :Director .
+
+data:Chrissy_Metz  a  :Actor .
+
+data:Takashi_Taniguchi
+        a       :Actor .
+
+data:80158838  a             :Movie ;
+        :addedOnDate         "Wed Sep 05 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Puttachat_Pongsuchat , data:Sora_Aoi , data:Preechaya_Pongthananikorn , data:Sunny_Suwanmethanont , data:Popetorn_Soonthornyanakij ;
+        :hasCategory         data:Romantic_Movies , data:International_Movies , data:Comedies ;
+        :hasDescription      "Desperate to go to the U.S. to win back his girlfriend, Yim hires a tutor to teach him English. But things don't go according to plan." ;
+        :hasDirector         data:Mez_Tharatorn ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "I Fine... Thank You... Love You" ;
+        :isOfDuration        "116 min" ;
+        :releasedInYear      2014 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Todd_Haberkorn  a  :Actor .
+
+data:Tim_Maltby  a  :Director .
+
+data:Rachel_Brann  a  :Actor .
+
+data:TV_Mysteries  a  :Category .
+
+data:Kate_Beckinsale  a  :Actor .
+
+data:Ralph_Brown  a  :Actor .
+
+data:Lea_Thompson  a  :Actor .
+
+data:Ry_Barrett  a  :Actor .
+
+data:Robert_Osman  a  :Director .
+
+data:Josh_Keaton  a  :Actor .
+
+data:Amy_Pietz  a  :Actor .
+
+data:Dramas  a  :Category .
+
+data:Jesse_V_Johnson  a  :Director .
+
+data:70241607  a             :Movie ;
+        :addedOnDate         "Fri Sep 07 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Thailand ;
+        :hasActor            data:Athipich_Chutiwatkajornchai , data:Deuntem_Salitul , data:Sutatta_Udomsilp , data:Saharat_Sangkapreecha , data:Sahajak_Boonthanakit , data:Pok_Piyatida_Woramusik ;
+        :hasCategory         data:Horror_Movies , data:International_Movies ;
+        :hasDescription      "When a family moves into an upscale housing development, they encounter a series of paranormal events that drive them to the edge of insanity." ;
+        :hasDirector         data:Sopon_Sukdapisit ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Laddaland" ;
+        :isOfDuration        "112 min" ;
+        :releasedInYear      2011 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Deuntem_Salitul  a  :Actor .
+
+data:Daryl_Sabara  a  :Actor .
+
+data:Michael_Gaston  a  :Actor .
+
+data:Arif_Bahlim  a  :Actor .
+
+data:Demetri_Martin  a  :Actor .
+
+data:Andy_Lucas  a  :Actor .
+
+data:Charlie_Trairat  a  :Actor .
+
+data:Eric_Lampaert  a  :Actor .
+
+data:Manoj_Pahwa  a  :Actor .
+
+data:Tom_Wilkinson  a  :Actor .
+
+data:Praveena_Paruchuri
+        a       :Actor .
+
+data:Niels_Schneider  a  :Actor .
+
+data:80030186  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasCategory         data:Docuseries ;
+        :hasDescription      "This series examines 1970s America, focusing on the major political and historical landmarks of the decade and the cultural response to those events." ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "The Seventies" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Aakash_Dabhade  a  :Actor .
+
+data:Murat_Boz  a  :Actor .
+
+data:Hyeyoung_Ryu  a  :Actor .
+
+data:Kevin_R_Adams  a  :Director .
+
+data:Praneetha_Patnaik
+        a       :Actor .
+
+data:80058026  a             :Movie ;
+        :addedOnDate         "Thu Sep 06 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Susan_Sarandon , data:Nick_Swardson , data:Mila_Kunis , data:Bob_Odenkirk , data:Maria_Bamford , data:Rob_Riggle , data:TJ_Miller , data:Jennifer_Coolidge , data:Danny_McBride , data:John_Farley ;
+        :hasCategory         data:Independent_Movies , data:Action__Adventure , data:Comedies ;
+        :hasDescription      "When best friends break a blood oath, one of them is cast away to hell, and the other two must save him from the misfits of the underworld." ;
+        :hasDirector         data:Tom_Gianas , data:Ross_R_Shuman ;
+        :hasRating           :R ;
+        :hasTitle            "Hell and Back" ;
+        :isOfDuration        "86 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Robert_Patrick  a  :Actor .
+
+data:Daniyal_Yousuf  a  :Actor .
+
+data:80239337  a             :TV_Show ;
+        :addedOnDate         "Sun Sep 30 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Todd_Haberkorn , data:Daryl_Sabara , data:Tara_Strong , data:Roger_Craig_Smith , data:Dwight_Schultz , data:Montse_Hernandez , data:David_Kaye ;
+        :hasCategory         data:Kids_TV ;
+        :hasDescription      "Ben can transform into ten types of aliens. He'll try 'em all while adventuring across the country with his cousin Gwen and Grandpa Max." ;
+        :hasRating           :TV-Y7 ;
+        :hasTitle            "Ben 10" ;
+        :isOfDuration        "1 Season" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Andrew_Toth  a  :Actor .
+
+data:Byeongeun_Park  a  :Actor .
+
+data:Thawat_Pornrattanaprasert
+        a       :Actor .
+
+data:81004470  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:China ;
+        :hasActor            data:Bingkun_Cao , data:Zhang_Jungyi , data:Su_Ke , data:Li_Yi_Feng , data:Yijuan_Li , data:Zhou_Dongyu , data:Michael_Douglas , data:Ge_Wang , data:Keanu_Chi ;
+        :hasCategory         data:International_Movies , data:Action__Adventure , data:SciFi__Fantasy ;
+        :hasDescription      "An unlucky, debt-ridden teen resorts to his math skills when he's forced into a deadly tournament of rock-paper-scissors run by a diabolical host." ;
+        :hasDirector         data:Han_Yan ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Animal World" ;
+        :isOfDuration        "130 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:John_Kani  a  :Actor .
+
+data:Takeshi_Masu  a  :Actor .
+
+data:80045922  a             :Movie ;
+        :addedOnDate         "Tue Sep 08 00:00:00 GST 2015"^^xsd:date ;
+        :fromCountry         data:United_States ;
+        :hasActor            data:Peter_Vack , data:Taissa_Farmiga , data:Joshua_Leonard , data:Jason_Newman , data:Ben_Rosenfield , data:Molly_McMichael , data:Dana_WheelerNicholson , data:Jennifer_Lafleur , data:Lindsay_Burdge ;
+        :hasCategory         data:Dramas , data:Independent_Movies , data:Romantic_Movies ;
+        :hasDescription      "As a volatile young couple who have been together for six years approach college graduation, unexpected career opportunities threaten their future." ;
+        :hasDirector         data:Hannah_Fidell ;
+        :hasRating           :NR ;
+        :hasTitle            "6 Years" ;
+        :isOfDuration        "80 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Tony_Todd  a  :Actor .
+
+data:Molly_McMichael  a  :Actor .
+
+data:Suman  a   :Actor .
+
+data:80081155  a             :Movie ;
+        :addedOnDate         "Fri Sep 30 00:00:00 GST 2016"^^xsd:date ;
+        :fromCountry         data:United_States , data:Denmark ;
+        :hasCategory         data:Documentaries ;
+        :hasDescription      "She was twice convicted and acquitted of murder. Amanda Knox and the people closest to her case speak out in this illuminating documentary." ;
+        :hasDirector         data:Rod_Blackhurst , data:Brian_McGinn ;
+        :hasRating           :TV-MA ;
+        :hasTitle            "Amanda Knox" ;
+        :isOfDuration        "92 min" ;
+        :releasedInYear      2016 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Sungyu_Jin  a  :Actor .
+
+data:Sunny_Suwanmethanont
+        a       :Actor .
+
+data:Marsha_Wattanapanich
+        a       :Actor .
+
+data:Rebekah_Graf  a  :Actor .
+
+data:A_L_Vijay  a  :Director .
+
+data:Tharun_Bhascker  a  :Director .
+
+data:Lupita_Nyongo  a  :Actor .
+
+data:Kesava_Karri  a  :Actor .
+
+data:Guillaume_Gallienne
+        a       :Actor .
+
+data:Sayani_Gupta  a  :Actor .
+
+data:Anthony_Forrest  a  :Actor .
+
+data:Katherine_Waterston
+        a       :Actor .
+
+:TV-14  a                owl:Class ;
+        rdfs:subClassOf  :Rating .
+
+data:Alexander_Siddig
+        a       :Actor .
+
+data:Rizal_Mantovani  a  :Director .
+
+data:Brian_McGinn  a  :Director .
+
+data:Michael_Jibson  a  :Actor .
+
+data:81002866  a             :Movie ;
+        :addedOnDate         "Fri Sep 28 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:Indonesia ;
+        :hasActor            data:Reza_Rahadian , data:Randy_Nidji , data:Arzetti_Bilbina , data:Pevita_Pearce , data:Kevin_Andrean , data:Herjunot_Ali , data:Gesya_Shandy ;
+        :hasCategory         data:International_Movies , data:Romantic_Movies , data:Dramas ;
+        :hasDescription      "When a young man leaves home to fulfill the wishes of his late father, he meets and falls in love with a woman from a very different background." ;
+        :hasDirector         data:Sunil_Soraya ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "The Sinking Of Van Der Wijck" ;
+        :isOfDuration        "163 min" ;
+        :releasedInYear      2013 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Kevin_Michael_Richardson
+        a       :Actor .
+
+data:Chaiyapol_Pupart
+        a       :Actor .
+
+data:Sora_Aoi  a  :Actor .
+
+data:80052612  a             :Movie ;
+        :addedOnDate         "Tue Sep 04 00:00:00 GST 2018"^^xsd:date ;
+        :fromCountry         data:United_Kingdom , data:France ;
+        :hasActor            data:Simon_Pegg , data:Stephen_Campbell_Moore , data:Phoebe_WallerBridge , data:Henry_LloydHughes , data:Sharon_Horgan , data:DeanCharles_Chapman , data:Lake_Bell , data:Ken_Stott , data:Rory_Kinnear , data:Harriet_Walter , data:Olivia_Williams , data:Ophelia_Lovibond ;
+        :hasCategory         data:Romantic_Movies , data:International_Movies , data:Comedies ;
+        :hasDescription      "A single woman seizes an opportunity when, while standing under a train station clock, she meets a stranger who mistakes her for his blind date." ;
+        :hasDirector         data:Ben_Palmer ;
+        :hasRating           :R ;
+        :hasTitle            "Man Up" ;
+        :isOfDuration        "88 min" ;
+        :releasedInYear      2015 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Susan_Sarandon  a  :Actor .
+
+data:Noah_Emmerich  a  :Actor .
+
+data:Ben_Palmer  a  :Director .
+
+data:Jonathan_Whitesell
+        a       :Actor .
+
+data:Nithyasri_Goru  a  :Actor .
+
+data:Karam_Hussain  a  :Actor .
+
+data:81052275  a             :Movie ;
+        :addedOnDate         "Fri Sep 06 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:India ;
+        :hasActor            data:Simran_Choudhary , data:Abhinav_Gomatam , data:Vishwaksen_Naidu , data:Venkatesh_Kakumanu , data:Sushanth_Reddy , data:Anisha_Ambrose ;
+        :hasCategory         data:Comedies , data:International_Movies ;
+        :hasDescription      "In Goa and in desperate need of cash, four childhood friends get another shot at making their long-abandoned dreams of becoming filmmakers come true." ;
+        :hasDirector         data:Tharun_Bhascker ;
+        :hasRating           :TV-14 ;
+        :hasTitle            "Ee Nagaraniki Emaindi" ;
+        :isOfDuration        "133 min" ;
+        :releasedInYear      2018 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Anita_Hara  a  :Actor .
+
+data:Nesta_Cooper  a  :Actor .
+
+data:Theerapat_Sajakul
+        a       :Actor .
+
+data:Diana_Hardcastle
+        a       :Actor .
+
+data:81145628  a             :Movie ;
+        :addedOnDate         "Mon Sep 09 00:00:00 GST 2019"^^xsd:date ;
+        :fromCountry         data:China , data:United_States , data:India , data:South_Korea ;
+        :hasActor            data:Jennifer_Cameron , data:Cole_Howard , data:Michael_Dobson , data:Jonathan_Holmes , data:Alan_Marriott , data:Lee_Tockar , data:Brian_Dobson , data:Maya_Kay , data:Andrew_Toth , data:Lisa_Durupt ;
+        :hasCategory         data:Children__Family_Movies , data:Comedies ;
+        :hasDescription      "Before planning an awesome wedding for his grandfather, a polar bear king must take back a stolen artifact from an evil archaeologist first." ;
+        :hasDirector         data:Tim_Maltby , data:Richard_Finn ;
+        :hasRating           :TV-PG ;
+        :hasTitle            "Norm of the North: King Sized Adventure" ;
+        :isOfDuration        "90 min" ;
+        :releasedInYear      2019 ;
+        provODP:generatedBy  <https://www.kaggle.com/shivamb/netflix-shows> .
+
+data:Han_Yan  a  :Director .
+
+data:TJ_Miller  a  :Actor .
+
+data:Tom_OBrien  a  :Actor , :Director .
+
+data:Melanie_Griffith
+        a       :Actor .
+
+data:Rodrigo_Toro  a  :Director .
